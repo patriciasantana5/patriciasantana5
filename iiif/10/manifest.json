@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/10/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO017.jpg Embaixada Peru"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/10/576a819c285153c1f92691aef125d848/full/300,225/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/10/canvas/0",
+            "type": "Canvas",
+            "height": 2022,
+            "width": 2694,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/10/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/10/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/10/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/10/576a819c285153c1f92691aef125d848/full/2000,1501/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1501,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/10/576a819c285153c1f92691aef125d848",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

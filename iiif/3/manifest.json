@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/3/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO008.jpg família na praia"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/3/dd8fe914d744b60d425fcc372a1c7ecc/full/300,212/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 212,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/3/canvas/0",
+            "type": "Canvas",
+            "height": 1358,
+            "width": 1923,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/3/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/3/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/3/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/3/dd8fe914d744b60d425fcc372a1c7ecc/full/2000,1412/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1412,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/3/dd8fe914d744b60d425fcc372a1c7ecc",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

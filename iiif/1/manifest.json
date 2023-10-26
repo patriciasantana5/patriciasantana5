@@ -1,0 +1,67 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/1/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO007_1.jpg e filhos 189"
+        ]
+    },
+    "rights": "https://rightsstatements.org/page/CNE/1.0/",
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/1/31d2995d8b9dc80b638433ae96519f73/full/236,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 236
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/1/canvas/0",
+            "type": "Canvas",
+            "height": 1566,
+            "width": 1232,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/1/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/1/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/1/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/1/31d2995d8b9dc80b638433ae96519f73/full/1573,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1573,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/1/31d2995d8b9dc80b638433ae96519f73",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

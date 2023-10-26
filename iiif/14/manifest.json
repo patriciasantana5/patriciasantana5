@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/14/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO025_1.jpg família"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/14/7d9fc8fe72eb65160e0af608ded5e0fe/full/262,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 262
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/14/canvas/0",
+            "type": "Canvas",
+            "height": 2243,
+            "width": 1959,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/14/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/14/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/14/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/14/7d9fc8fe72eb65160e0af608ded5e0fe/full/1747,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1747,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/14/7d9fc8fe72eb65160e0af608ded5e0fe",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

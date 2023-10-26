@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/6/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO011_3.jpg com filhos MA"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/6/fdf732a4eeff2d1987d1c0ed9d618f9e/full/180,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 180
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/6/canvas/0",
+            "type": "Canvas",
+            "height": 2399,
+            "width": 1443,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/6/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/6/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/6/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/6/fdf732a4eeff2d1987d1c0ed9d618f9e/full/1203,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1203,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/6/fdf732a4eeff2d1987d1c0ed9d618f9e",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

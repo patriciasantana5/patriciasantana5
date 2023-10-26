@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/11/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO019.jpg na Marquês de Abrantes 189"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/11/8cbe6e897a5bae4fc6f7e6e35e4f1a70/full/193,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 193
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/11/canvas/0",
+            "type": "Canvas",
+            "height": 2972,
+            "width": 1917,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/11/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/11/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/11/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/11/8cbe6e897a5bae4fc6f7e6e35e4f1a70/full/1290,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1290,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/11/8cbe6e897a5bae4fc6f7e6e35e4f1a70",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/9/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "AACMFOTO015.jpg com embaixador Morgan"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/9/8bcd69e31190113d91a6f64fd29cf3fb/full/219,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 219
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/9/canvas/0",
+            "type": "Canvas",
+            "height": 2081,
+            "width": 1518,
+            "items": [
+                {
+                    "id": "http://exposição.vercel.app/9/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://exposição.vercel.app/9/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://exposição.vercel.app/9/canvas/0",
+                            "body": {
+                                "id": "http://exposição.vercel.app/9/8bcd69e31190113d91a6f64fd29cf3fb/full/1459,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 1459,
+                                "service": [
+                                    {
+                                        "id": "http://exposição.vercel.app/9/8bcd69e31190113d91a6f64fd29cf3fb",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

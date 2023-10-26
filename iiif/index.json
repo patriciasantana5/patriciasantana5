@@ -1,0 +1,156 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://exposição.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Anna Amélia"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://exposição.vercel.app/1/31d2995d8b9dc80b638433ae96519f73/full/236,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 236
+        }
+    ],
+    "items": [
+        {
+            "id": "http://exposição.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO007_1.jpg e filhos 189"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO007_2.jpg e filhos 189"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO008.jpg família na praia"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/4/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO011_1.jpg com filhos MA"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/5/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO011_2.jpg com filhos MA"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/6/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO011_3.jpg com filhos MA"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/7/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO013_1.jpg Rainha"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/8/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO013_7.jpg Rainha"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/9/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO015.jpg com embaixador Morgan"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/10/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO017.jpg Embaixada Peru"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/11/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO019.jpg na Marquês de Abrantes 189"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/12/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO021_1.jpg com filhos"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/13/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO021_2.jpg com filhos"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/14/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO025_1.jpg família"
+                ]
+            }
+        },
+        {
+            "id": "http://exposição.vercel.app/15/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "AACMFOTO025_2.jpg família"
+                ]
+            }
+        }
+    ]
+}

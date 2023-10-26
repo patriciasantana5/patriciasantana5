@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://exposição.vercel.app/1/31d2995d8b9dc80b638433ae96519f73",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 256
+    }
+  ],
+  "width": 1232,
+  "height": 1566,
+  "sizes": [
+    {
+      "width": 236,
+      "height": 300
+    },
+    {
+      "width": 1573,
+      "height": 2000
+    }
+  ]
+}
